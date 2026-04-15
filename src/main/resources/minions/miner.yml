@@ -1,0 +1,24 @@
+item:
+  display_name: "<green>Miner <gray>Minion"
+  base_skin: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5Y2E3MWYwMzFmYzk1YmRmNGE1ZGU1M2RjNDNhNjAzYmU1YjcxZDM2OTJmZDU3M2JmODQxZTA4ZTcyNTAxYyJ9fX0="
+  description: |
+    A miner minion that mines blocks for you.
+    It can mine any block that a player can mine, but it will not mine blocks that are too hard for it to mine.
+    It will mine blocks in a 3x3 area around it, and it will mine
+settings:
+  default_range: 3
+  max_range: 5
+  mining_speed: 1.0
+  generation_time: 60
+  blocks:
+    - STONE
+    - ANDESITE
+    - DIORITE
+    - GRANITE
+    - COAL_ORE
+    - IRON_ORE
+    - GOLD_ORE
+    - REDSTONE_ORE
+    - LAPIS_ORE
+    - DIAMOND_ORE
+    - EMERALD_ORE

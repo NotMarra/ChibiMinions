@@ -1,0 +1,12 @@
+name: ChibiMinions
+version: '0.0.1'
+main: dev.notmarra.chibiminions.ChibiMinions
+api-version: '1.21'
+authors: [ NotMarra ]
+description: Minion workers
+website: notmarra.dev
+dependencies:
+  server:
+    NotLib:
+      load: BEFORE
+      required: true
